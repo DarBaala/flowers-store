@@ -1,0 +1,26 @@
+@import "./fonts";
+@import "./variables";
+@import "./libs/reset";
+@import "./components/all";
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.wrapper {
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  &__margins {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
