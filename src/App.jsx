@@ -8,6 +8,7 @@ const App = () => {
     <div style={{ backgroundImage: `url(${bg})` }} className="wrapper">
       <div className="wrapper__margins">
         <Home />
+        <div style={{ height: "500px" }}></div>
       </div>
     </div>
   );
